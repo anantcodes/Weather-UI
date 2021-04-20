@@ -20,7 +20,8 @@ struct ContentView: View {
             
             VStack{
                 CityTextView(cityName: "Cupertino, CA")
-            MainWeatherStatusView(imageName: "cloud.sun.fill", temperature: 76)
+                MainWeatherStatusView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill",
+                                  temperature: 76)
                 
                 HStack(spacing: 20){
                     WeatherDayView(dayOfWeek: "TUE",
@@ -82,7 +83,7 @@ struct WeatherDayView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 40, height: 40)
             
-            Text("\(temperature)")
+            Text("\(temperature)°")
                 .font(.system(size: 28, weight: .medium))
                 .foregroundColor(.white)
         }
@@ -127,7 +128,7 @@ struct MainWeatherStatusView: View{
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 180, height: 180)
             
-            Text("\(temperature)")
+            Text("\(temperature)°")
                 .font(.system(size: 70, weight: .medium))
                 .foregroundColor(.white)
             
