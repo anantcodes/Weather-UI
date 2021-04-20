@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    @State private var isNight = false
+    
+    
     var body: some View {
         ZStack {
-            BackgroundView(topColor: .blue, bottomColor: Color("lightBlue"))
+            BackgroundView(topColor: isNight ? .black : .blue,
+                           bottomColor: isNight ? .gray : Color("lightBlue"))
             
             VStack{
                 CityTextView(cityName: "Cupertino, CA")
