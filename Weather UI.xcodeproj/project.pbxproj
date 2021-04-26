@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E132BDE262EBF2B00576CA6 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E132BDD262EBF2B00576CA6 /* WeatherButton.swift */; };
+		0E3894B4263700DA00D48AF4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0E3894B3263700DA00D48AF4 /* README.md */; };
 		0EE2EE65262DBA3100EDBEE5 /* Weather_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2EE64262DBA3100EDBEE5 /* Weather_UIApp.swift */; };
 		0EE2EE67262DBA3100EDBEE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2EE66262DBA3100EDBEE5 /* ContentView.swift */; };
 		0EE2EE69262DBA3300EDBEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2EE68262DBA3300EDBEE5 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		0E132BDD262EBF2B00576CA6 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		0E3894B3263700DA00D48AF4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0EE2EE61262DBA3100EDBEE5 /* Weather UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE2EE64262DBA3100EDBEE5 /* Weather_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_UIApp.swift; sourceTree = "<group>"; };
 		0EE2EE66262DBA3100EDBEE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		0EE2EE58262DBA3100EDBEE5 = {
 			isa = PBXGroup;
 			children = (
+				0E3894B3263700DA00D48AF4 /* README.md */,
 				0EE2EE63262DBA3100EDBEE5 /* Weather UI */,
 				0EE2EE62262DBA3100EDBEE5 /* Products */,
 			);
@@ -129,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3894B4263700DA00D48AF4 /* README.md in Resources */,
 				0EE2EE6C262DBA3300EDBEE5 /* Preview Assets.xcassets in Resources */,
 				0EE2EE69262DBA3300EDBEE5 /* Assets.xcassets in Resources */,
 			);
